@@ -64,7 +64,7 @@
             txtNomeCompleto.Location = new Point(21, 41);
             txtNomeCompleto.Name = "txtNomeCompleto";
             txtNomeCompleto.Size = new Size(436, 23);
-            txtNomeCompleto.TabIndex = 1;
+            txtNomeCompleto.TabIndex = 0;
             // 
             // btnSalvar
             // 
@@ -72,7 +72,7 @@
             btnSalvar.Location = new Point(354, 391);
             btnSalvar.Name = "btnSalvar";
             btnSalvar.Size = new Size(103, 39);
-            btnSalvar.TabIndex = 8;
+            btnSalvar.TabIndex = 9;
             btnSalvar.Text = "Salvar";
             btnSalvar.TextImageRelation = TextImageRelation.ImageBeforeText;
             btnSalvar.UseVisualStyleBackColor = true;
@@ -101,7 +101,7 @@
             mtbCep.Mask = "00000-999";
             mtbCep.Name = "mtbCep";
             mtbCep.Size = new Size(100, 23);
-            mtbCep.TabIndex = 13;
+            mtbCep.TabIndex = 1;
             // 
             // lblLogradouro
             // 
@@ -117,14 +117,14 @@
             txtLogradouro.Location = new Point(25, 197);
             txtLogradouro.Name = "txtLogradouro";
             txtLogradouro.Size = new Size(241, 23);
-            txtLogradouro.TabIndex = 15;
+            txtLogradouro.TabIndex = 2;
             // 
             // txtComplemento
             // 
             txtComplemento.Location = new Point(25, 249);
             txtComplemento.Name = "txtComplemento";
             txtComplemento.Size = new Size(147, 23);
-            txtComplemento.TabIndex = 17;
+            txtComplemento.TabIndex = 5;
             // 
             // lblComplemento
             // 
@@ -149,14 +149,14 @@
             txtNumero.Location = new Point(275, 197);
             txtNumero.Name = "txtNumero";
             txtNumero.Size = new Size(61, 23);
-            txtNumero.TabIndex = 19;
+            txtNumero.TabIndex = 3;
             // 
             // txtBairro
             // 
             txtBairro.Location = new Point(188, 249);
             txtBairro.Name = "txtBairro";
             txtBairro.Size = new Size(269, 23);
-            txtBairro.TabIndex = 21;
+            txtBairro.TabIndex = 6;
             // 
             // lblBairro
             // 
@@ -172,7 +172,7 @@
             txtCidade.Location = new Point(25, 309);
             txtCidade.Name = "txtCidade";
             txtCidade.Size = new Size(301, 23);
-            txtCidade.TabIndex = 23;
+            txtCidade.TabIndex = 7;
             // 
             // lblCidade
             // 
@@ -200,7 +200,7 @@
             cbxUf.Location = new Point(336, 309);
             cbxUf.Name = "cbxUf";
             cbxUf.Size = new Size(121, 23);
-            cbxUf.TabIndex = 25;
+            cbxUf.TabIndex = 8;
             // 
             // chkSemNumero
             // 
@@ -208,7 +208,7 @@
             chkSemNumero.Location = new Point(358, 199);
             chkSemNumero.Name = "chkSemNumero";
             chkSemNumero.Size = new Size(101, 19);
-            chkSemNumero.TabIndex = 26;
+            chkSemNumero.TabIndex = 4;
             chkSemNumero.Text = "Sem Número?";
             chkSemNumero.UseVisualStyleBackColor = true;
             chkSemNumero.CheckedChanged += chkSemNumero_CheckedChanged;
